@@ -1,7 +1,9 @@
-package com.example.itmaster.ultimo_modulo3;
+package com.example.itmaster.ultimo_modulo3.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.itmaster.ultimo_modulo3.R;
 
 public class MainActivity extends AppCompatActivity {
 
