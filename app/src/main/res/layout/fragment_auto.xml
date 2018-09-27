@@ -5,10 +5,54 @@
     android:layout_height="match_parent"
     tools:context=".Fragments.FragmentAuto">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMarcaDeAuto"
+            android:text="Marca: "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMarcaNombreDeAuto"
+            android:text=""
+            android:layout_below="@+id/txtMarcaDeAuto"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtModeloDeAuto"
+            android:text="Modelo: "
+            android:layout_below="@+id/txtMarcaNombreDeAuto"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtModeloNombreDeAuto"
+            android:text=""
+            android:layout_below="@+id/txtModeloDeAuto"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtanioDeAuto"
+            android:text="Anio: "
+            android:layout_below="@+id/txtModeloNombreDeAuto"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtanioNombreDeAuto"
+            android:text=""
+            android:layout_below="@+id/txtanioDeAuto"/>
+
+    </RelativeLayout>
 
 </FrameLayout>
